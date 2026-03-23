@@ -61,7 +61,7 @@ section {
     padding-left:30px;
     line-height: 2em;
     font-family: var(--fonte3);
-    font-size: 5vw;
+    font-size: 3vw;
 }
 section.normal {
     background-color: white;
@@ -72,12 +72,34 @@ section.normal {
 section.imagem {
     background-color: brown;
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.282);
+    background-size: cover;
+    background-attachment: fixed; /* efeito PARALAX */
+
+}
+
+section#img01 {
+    background-image: url(../imagem/joaninha.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+section#img02 {
+    background-image: url(../imagem/folha.jpg);
+    background-position: left top;
+
 }
 
 section.imagem > p {
     display: inline-block;
-    padding: 8px;
-    background-color: rgba(0, 0, 0, 0.255);
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.491);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.515);
+
+}
+
+section > p {
+    padding-bottom: 2em;
 }
 footer {
     background-color: black;
