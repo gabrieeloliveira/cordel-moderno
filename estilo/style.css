@@ -80,7 +80,6 @@ section.imagem {
 
 section#img01 {
     background-image: url(../imagem/joaninha.jpg);
-    background-repeat: no-repeat;
     background-position: right center;
 }
 
